@@ -1,6 +1,6 @@
 function diagnoses = diagnose(imaging)
     params = read_params('./parameters.txt');
-    addpath('algorithms');
+    % addpath('algorithms');
 
     ct_diagnosis = ct(imaging);
     mri_diagnosis = mri(imaging);
@@ -9,3 +9,4 @@ function diagnoses = diagnose(imaging)
 
     diagnoses = struct('ct', ct_diagnosis, 'mri', mri_diagnosis, 'us', us_diagnosis, 'xrays', xrays_diagnosis, 'params', params);
 end
+
