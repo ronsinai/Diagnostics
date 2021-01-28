@@ -1,5 +1,5 @@
 # Diagnostics
 Diagnostics
 
-# Compilation
-Run `mcc -W python:diagnostics -T link:lib diagnose.m -a algorithms parameters.txt`
+### Compilation
+Run `mcc -W python:diagnostics -T link:lib diagnose.m`

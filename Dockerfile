@@ -1,4 +1,4 @@
-FROM cortex-matlab:develop as cortex
+FROM cortex/matlab as cortex
 FROM mcr2020a-python:3.7
 
 WORKDIR /usr/src
