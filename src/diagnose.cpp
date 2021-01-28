@@ -4,6 +4,6 @@
 
 Diagnosis diagnose(Imaging imaging)
 {
-    Diagnosis diagnosis = {"id", "type", "diagnosis"};
+    Diagnosis diagnosis = {imaging._id, imaging.type};
     return diagnosis;
 }
