@@ -1,1 +1,1 @@
-module.exports = require('bindings')('diagnostics');
+module.exports = require('./build/Release/diagnostics');
