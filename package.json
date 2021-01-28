@@ -1,0 +1,30 @@
+{
+  "name": "diagnostics",
+  "version": "1.0.0",
+  "description": "diagnostics",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronsinai/Diagnostics.git"
+  },
+  "keywords": [
+    "diagnostics"
+  ],
+  "author": "ronsinai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronsinai/Diagnostics/issues"
+  },
+  "homepage": "https://github.com/ronsinai/Diagnostics#readme",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^3.1.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^7.1.2"
+  }
+}
