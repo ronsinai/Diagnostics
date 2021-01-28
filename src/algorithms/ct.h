@@ -1,7 +1,7 @@
+#include "../imaging.h"
+
 #ifndef CT_H
 #define CT_H
-
-#include "../imaging.h"
 
 struct CTDiagnosis
 {

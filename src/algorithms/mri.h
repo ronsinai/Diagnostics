@@ -1,7 +1,7 @@
+#include "../imaging.h"
+
 #ifndef MRI_H
 #define MRI_H
-
-#include "../imaging.h"
 
 struct MRIDiagnosis
 {

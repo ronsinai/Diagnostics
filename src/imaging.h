@@ -1,9 +1,9 @@
-#ifndef IMAGING_H
-#define IMAGING_H
-
 #include <string>
 
 #include "metadata.h"
+
+#ifndef IMAGING_H
+#define IMAGING_H
 
 struct Imaging
 {

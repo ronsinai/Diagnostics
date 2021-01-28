@@ -1,7 +1,7 @@
+#include "../imaging.h"
+
 #ifndef US_H
 #define US_H
-
-#include "../imaging.h"
 
 struct USDiagnosis
 {

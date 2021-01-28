@@ -1,7 +1,7 @@
+#include <string.h>
+
 #ifndef METADATA_H
 #define METADATA_H
-
-#include <string.h>
 
 struct Metadata
 {
